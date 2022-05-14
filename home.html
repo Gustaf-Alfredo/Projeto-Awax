@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8" />
     <title>Awax</title>
+    <meta name="viewport" content="widht=device-width,minimum-scale=1,initial-scale=1"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    
 </head>
 <body>
     <header>
         <div class="header">
             <div class="logo">
-                <div class="logoimg"></div>
+                <!-- <img src="" alt=""> 
+                FALTA COLOCAR A LOGO-->
             </div>
-
             <div class="menu">
+                <div class="menu-mobile">
+                    <img src="assets/images/menu.png" alt="">
+                </div>
                 <nav>
                     <ul>
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Our Projects</a></li>
                         <li><a href="#">Our Team</a></li>
                         <li><a href="#">Happy Clients</a></li>
                         <li><a href="#">Price</a></li>
                         <li><a href="#">Some Facts</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -36,314 +39,876 @@
 
     <main>
         <section class="banner">
-            <div class="sliders" style="margin-left: 0;">
+            <div class="sliders">
                 <div class="slide">
-                    <div class="slidearea">
-                        <h1>Desegn in about <br><span>Communication</span></h1>
+                    <div class="section-slide--area">
+                        <h1>Design is About <br>
+                        <span>Communication</span></h1>
                         <h2>Call Us: +00 0 1234 5678</h2>
-                        <a href="#" class="button">Get in touch!</a>
-                        
+                        <div class="button"><p>Get in Touch!</p></div>
                     </div>
                 </div><div class="slide">
-                    <div class="slidearea">
-                        <h1>Desegn in about <br><span>Teste</span></h1>
+                    <div class="section-slide--area">
+                        <h1>Design in About <br>
+                        <span>TEST</span></h1>
                         <h2>Call Us: +00 0 1234 5678</h2>
-                        <a href="#" class="button">Get in touch!</a>
-                        
+                        <div class="button"><p>Get in Touch!</p></div>
                     </div>
                 </div><div class="slide">
-                    <div class="slidearea">
-                        <h1>Desegn in about <br><span>Teste2</span></h1>
+                    <div class="section-slide--area">
+                        <h1>Design in About <br>
+                        <span>SECOND TEST</span></h1>
                         <h2>Call Us: +00 0 1234 5678</h2>
-                        <a href="#" class="button">Get in touch!</a>
-                        
+                        <div class="button"><p>Get in Touch!</p></div>
                     </div>
                 </div>
+
+                
             </div>
-            <div class="slider-pointers">
+            <div class="pointers">
                 <div class="pointer active"></div>
                 <div class="pointer"></div>
                 <div class="pointer"></div>
             </div>
         </section>
 
-        <section class="default light">
-            <div class="section-title">About us</div>
-            <div class="section-desc">Who we are?</div>
-            <div class="section-body">
-                <div class="section-aboutus">
-                    <div class=section-aboutus--left>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam incidunt illo mollitia voluptates perspiciatis? Pariatur quidem et deserunt non soluta repellat dolorum. Aliquid deserunt sequi dolore obcaecati! Earum, debitis ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, iste! Praesentium quis quia aspernatur! Laborum, excepturi nesciunt exercitationem voluptatibus dolores omnis vitae eligendi facilis sit vero asperiores rem veritatis minima.</p>
-                        <br>
-                        <a href="#" class="button">Learn More</a>
+        <section class="default light aboutus">
+        <!-- duas classes para poder colocar um css padrão para default -->
+            <div class="section-title">
+                <h3>About US</h3>
+            </div>
+
+            <div class="section-desc">
+                <h4>Who we are?</h4>
+            </div>
+
+            <div class="section-body"> 
+            <!-- foi feita uma div dentro do section-body para poder colocar css padrão no section-body -->
+                <div class="section-about-us">
+
+                    <div class="about-us--left">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias obcaecati, sapiente est quod, laborum voluptates labore ut, amet id rerum velit voluptate porro nihil aliquam. Maxime quos nesciunt fugit aspernatur?
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore aliquam ducimus, illo sapiente doloremque labore voluptates blanditiis deleniti incidunt facere dolorem autem ex quibusdam quod, temporibus magnam qui, eaque aspernatur.
+                        </p>
+
+                        <div class="button">
+                            <p>Learn More</p>
+                        </div>
+
                     </div>
 
-                    <div class=section-aboutus--right>
-                        <img src="media/foto10.jpg" alt="Foto">
+                    <div class="about-us--right">
+                            <img src="media/foto10.jpg" alt="Foto de apresentação da empresa">
                     </div>
+
                 </div>
+
             </div>
+
         </section>
 
-        <section class="default dark">
-            <div class="section-title">Título de exemplo</div>
-            <div class="section-desc">Descrição bem legal</div>
+        <section class="default dark services">
+            <div class="section-title"><h3>Services</h3></div>
+            <div class="section-desc"><h4>Services That We Provide</h4></div>
             <div class="section-body">
                 <div class="section-services">
-
-                    <div class="section-service">
-                        <img src="assets/images/medalha.png" alt="medalha">
-                        <h4>High Quality <br> Design</h4>
-                        <p>Donec tincidunt cursus</p>
+                    <div class="section--service">
+                        <div>
+                            <img src="assets/images/medalha.png" alt="Selo de qualidade">
+                        </div>
+                        <div class="section-service--title">High Quality Design</div>
+                        <div class="section-service--desc">Donec tincidunt cursus</div>
                     </div>
 
-                    <div class="section-service">
-                        <img src="assets/images/estrela.png" alt="medalha">
-                        <h4>Modern Design</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur cursus</p>
+                    <div class="section--service">
+                        <div>
+                            <img src="assets/images/estrela.png" alt="Selo de qualidade">
+                        </div>
+                        <div class="section-service--title">Modern Design</div>
+                        <div class="section-service--desc">Morbi ex felis, tincidunt sed hendrerit</div>
                     </div>
 
-                    <div class="section-service">
-                        <img src="assets/images/relogio.png" alt="medalha">
-                        <h4>Regular <br> Updates</h4>
-                        <p>Donec tincidunt cursus</p>
+                    <div class="section--service">
+                        <div>
+                            <img src="assets/images/relogio.png" alt="Selo de qualidade">
+                        </div>
+                        <div class="section-service--title">Regular Updates</div>
+                        <div class="section-service--desc">Donec tincidunt cursus</div>
                     </div>
 
-                    <div class="section-service">
-                        <img src="assets/images/balao.png" alt="medalha">
-                        <h4>Fast and free <br> support</h4>
-                        <p>Lorem, ipsum dolor sit amet consectetur cursus</p>
+                    <div class="section--service">
+                        <div>
+                            <img src="assets/images/balao.png" alt="Selo de qualidade">
+                        </div>
+                        <div class="section-service--title">Fast and Free Support</div>
+                        <div class="section-service--desc">Morbi ex felis, tincidunt sed</div>
                     </div>
+                    
                 </div>
             </div>
         </section>
 
-        <section class="default light">
-            <div class="section-title">Our Projects</div>
-            <div class="section-desc">What we create</div>
+        <section class="default light Projects">
+            <div class="section-title"><h3>Our Projects</h3></div>
+            <div class="section-desc"><h4>What we Create</h4></div>
             <div class="section-body">
                 <div class="section-projects">
                     <div class="section-projects--filters">
                         <ul>
-                            <li>All</li>
-                            <li class="active">Photos</li>
+                            <li class="active">All</li>
+                            <li>Photos</li>
                             <li>Branding</li>
                             <li>Adverts</li>
                             <li>Development</li>
                             <li>Misc</li>
                         </ul>
-
                     </div>
 
-                   <div class="section-projects--photos">
-
+                    <div class="section-projects--photos">
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto1.jpg" alt="#">
-                            </div>
+                                <img src="media/foto1.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto2.jpg" alt="#">
-                            </div>
+                                <img src="media/foto2.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto3.jpg" alt="#">
-                            </div>
+                                <img src="media/foto3.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto4.jpg" alt="#">
-                            </div>
+                                <img src="media/foto4.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto5.jpg" alt="#">
-                            </div>
+                                <img src="media/foto5.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto6.jpg" alt="#">
-                            </div>
+                                <img src="media/foto6.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto1.jpg" alt="#">
-                            </div>
+                                <img src="media/foto1.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto2.jpg" alt="#">
-                            </div>
+                                <img src="media/foto2.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto3.jpg" alt="#">
-                            </div>
+                                <img src="media/foto3.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto4.jpg" alt="#">
-                            </div>
+                                <img src="media/foto4.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto5.jpg" alt="#">
-                            </div>
+                                <img src="media/foto5.jpg" alt="">
+                            </div> 
                         </div>
 
                         <div class="section-projects--photo">
                             <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Vestibulum porta aliquet</p>
+                                <div class="section-projects-photoinfo">
+                                    <h5>About</h5>
+                                    <p>Vestibulum porta aliquet risus</p>
                                 </div>
-                                <img src="media/foto6.jpg" alt="#">
-                            </div>
+                                <img src="media/foto6.jpg" alt="">
+                            </div> 
                         </div>
+
                         
-                        
-                        <a href="#" class="button">More Projects</a> 
-                   </div>
+                    </div>
 
-                   <!-- <a href="#" class="button">More Projects</a>  testando se vai afetar em algo colocar o botão dentro da div-->
+                    <div class="button">More Projects</div>
                 </div>
             </div>
         </section>
 
         <section class="default dark bg-team">
-
-            <div class="section-team-area">
-                <div class="section-title">Our Team</div>
-                <div class="section-desc">Our Co-Workers</div>
+            <div class="section-team-geral">
+                <div class="section-title">
+                    <h3>Our team</h3>
+                </div>
+                <div class="section-desc">
+                    <h4>Our-coworkers</h4>
+                </div>
+                
                 <div class="section-body">
                     <div class="section-team">
-                        <div class="sliders" style="margin-left: 0;">
-
+                        <div class="slides">
                             <div class="slide">
-                                <div class="slidearea">
-                                    <img class="section-team-avatar" src="media/mulher1.png" alt="">
-                                    <div class="section-team--name">Jane Doe</div>
-                                    <div class="section-team--role">Master mind</div>
-                                    <div class="section-team--social">
-                                        <a href="#"><img src="assets/images/facebook.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/googleplus.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/linkedin.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/pinterest.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/twitter.png" alt=""></a>
+                                <div class="slide-area">
+                                    <img src="media/mulher1.png" alt="">
+
+                                    <h5>JANE DOE</h5>
+                                    <p>Master mind</p>
+
+                                    <div class="links">
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/facebook.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/googleplus.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/linkedin.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/pinterest.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/twitter.png" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="slide">
+                                <div class="slide-area">
+                                    <img src="media/homem1.png" alt="">
+                                    
+                                    <h5>MIKE SHILLER</h5>
+                                    <p>Creative head</p>
+
+                                    <div class="links">
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/facebook.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/googleplus.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/linkedin.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/pinterest.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/twitter.png" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="slide">
+                                <div class="slide-area">
+                                    <img src="media/mulher2.png" alt="">
+
+                                    <h5>ANNA JOHNS</h5>
+                                    <p>Technical lead</p>
+
+                                    <div class="links">
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/facebook.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/googleplus.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/linkedin.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/pinterest.png" alt="">
+                                            </div>
+                                        </a>
+
+                                        <a href="#">
+                                            <div class="link">
+                                                <img src="assets/images/twitter.png" alt="">
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="slide">
-                                <div class="slidearea">
-                                   
-                                    <img class="section-team-avatar" src="media/homem1.png" alt="">
-                                    <div class="section-team--name">Mike Chiller</div>
-                                    <div class="section-team--role">Creative Head</div>
-                                    <div class="section-team--social">
-                                        <a href="#"><img src="assets/images/facebook.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/googleplus.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/linkedin.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/pinterest.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/twitter.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="slidearea">
-                                    <img class="section-team-avatar" src="media/mulher2.png" alt="">
-                                    <div class="section-team--name">Anna Jhons</div>
-                                    <div class="section-team--role">Tchnical Lead</div>
-                                    <div class="section-team--social">
-                                        <a href="#"><img src="assets/images/facebook.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/googleplus.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/linkedin.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/pinterest.png" alt=""></a>
-                                        <a href="#"><img src="assets/images/twitter.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-
+                        <div class="slides-pointers">
+                            <div class="pointer active"></div>
+                            <div class="pointer"></div>
+                            <div class="pointer"></div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="slider-pointers">
-                        <div class="pointer active"></div>
-                        <div class="pointer"></div>
-                        <div class="pointer"></div>
+        <section class="default light client">
+            <div class="section-title"><h3>Happy Clients</h3></div>
+            <div class="section-desc"><h4>Client Reviews</h4></div>
+            <div class="section-body-clients">
+                <div class="slides">
+                    <div class="slide">
+                        <div class="slide-area">
+                            <div class="slide-area-content">
+                                <img src="media/homem2.png" alt="">
+
+                                <h5>John Doe</h5>
+                                <h6>Head of PR Department</h6>
+
+                                <img src="assets/images/quote.png" alt="">
+                                <p>Praesent metus urna, feugiat a placerat vel, elementum at leo. Quisque vel fermentum ipsum. Nulla at facilisis est, vel condimentum ligula, consectetur. Fusce sed purus eros. Vivamus rhoncus. Ipsum in tempus fermentum, orci leo facilisis purus.</p>
+                            </div>
+                        </div>
+                    </div><div class="slide">
+                        <div class="slide-area">
+                            <div class="slide-area-content">
+                                <img src="media/homem2.png" alt="">
+
+                                <h5>John Teste</h5>
+                                <h6>Head of PR Department</h6>
+
+                                <img src="assets/images/quote.png" alt="">
+                                <p>Praesent metus urna, feugiat a placerat vel, elementum at leo. Quisque vel fermentum ipsum. Nulla at facilisis est, vel condimentum ligula, consectetur. Fusce sed purus eros. Vivamus rhoncus. Ipsum in tempus fermentum, orci leo facilisis purus.</p>
+                            </div>
+                        </div>
+                    </div><div class="slide">
+                        <div class="slide-area">
+                            <div class="slide-area-content">
+                                <img src="media/homem2.png" alt="">
+
+                                <h5>John Teste2</h5>
+                                <h6>Head of PR Department</h6>
+
+                                <img src="assets/images/quote.png" alt="">
+                                <p>Praesent metus urna, feugiat a placerat vel, elementum at leo. Quisque vel fermentum ipsum. Nulla at facilisis est, vel condimentum ligula, consectetur. Fusce sed purus eros. Vivamus rhoncus. Ipsum in tempus fermentum, orci leo facilisis purus.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-
+                <div class="pointers">
+                    <div class="pointer active"></div>
+                    <div class="pointer"></div>
+                    <div class="pointer"></div>
+                </div>
             </div>
-
 
             
         </section>
 
+        <section class="default section-companies">
+            <div class="section-body2">
+                <div class="section-companies--area">
+                    <div class="section-company">
+                        <img src="media/empresa1.png" />
+                    </div>
+                    <div class="section-company">
+                        <img src="media/empresa2.png" />
+                    </div>
+                    <div class="section-company">
+                        <img src="media/empresa3.png" />
+                    </div>
+                    <div class="section-company">
+                        <img src="media/empresa4.png" />
+                    </div>
+                    <div class="section-company">
+                        <img src="media/empresa5.png" />
+                    </div>
+                    <div class="section-company">
+                        <img src="media/empresa6.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    
 
+        <section class="default light price">
+            <div class="section-title"><h3>Price</h3></div>
+            <div class="section-desc"><h4>Pricing Table</h4></div>
+            <div class="section-body">
+                <div class="section-price--cards">
+                    <div class="section-price--card">
+                        <div class="card-title">
+                            Express
+                        </div>
+                        <div class="card-price">
+                            <h5>$ 9.99</h5>
+                            <h6>/ Month</h6>
+                        </div>
+
+                        <div class="card-desc">
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                        </div>
+
+                        <div class="card-button">
+                            <p>Choose</p>
+                        </div>
+                    </div>
+
+                    <div class="section-price--card">
+                        <div class="card-title">
+                            Express
+                        </div>
+                        <div class="card-price">
+                            <h5>$ 9.99</h5>
+                            <h6>/ Month</h6>
+                        </div>
+
+                        <div class="card-desc">
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                        </div>
+
+                        <div class="card-button">
+                            <p>Choose</p>
+                        </div>
+                    </div>
+
+                    <div class="section-price--card">
+                        <div class="card-title">
+                            Express
+                        </div>
+                        <div class="card-price">
+                            <h5>$ 9.99</h5>
+                            <h6>/ Month</h6>
+                        </div>
+
+                        <div class="card-desc">
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                        </div>
+
+                        <div class="card-button">
+                            <p>Choose</p>
+                        </div>
+                    </div>
+
+                    <div class="section-price--card">
+                        <div class="card-title">
+                            Express
+                        </div>
+                        <div class="card-price">
+                            <h5>$ 9.99</h5>
+                            <h6>/ Month</h6>
+                        </div>
+
+                        <div class="card-desc">
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                            <p>Tracking issues</p>
+                            <span>--</span>
+                        </div>
+
+                        <div class="card-button">
+                            <p>Choose</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default light premium">
+            <div class="section-title"><h3>Premium</h3></div>
+            <div class="section-desc"><h4>Even More Features Available</h4></div>
+            <div class="section-body">
+                <div class="section-premium">
+                    <div class="sliders" style="margin-left:0;">
+                        <div class="slide">
+                            <div class="slidearea">
+                                <div class="section-premium--left">
+                                    <img src="media/livros.png" />
+                                </div>
+                                <div class="section-premium--right">
+                                        <div class="section-premium--item">
+                                            <img src="assets/images/check.png" />
+                                            <div>
+                                                <h4>FIRST FEATURE</h4>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.<br/>
+                                                -- FEATURE ONE<br/>
+                                                -- FEATURE TWO<br/>
+                                                -- FEATURE THREE
+                                            </div>
+                                        </div>
+                                        <div class="section-premium--item">
+                                            <img src="assets/images/check.png" />
+                                            <div>
+                                                <h4>SECOND FEATURE</h4>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                            </div>
+                                        </div>
+                                        <div class="section-premium--item">
+                                            <img src="assets/images/check.png" />
+                                            <div>
+                                                <h4>THIRD FEATURE</h4>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div><div class="slide">
+                            <div class="slidearea">
+                                <div class="section-premium--left">
+                                    <img src="media/livros.png" />
+                                </div>
+                                <div class="section-premium--right">
+                                        <div class="section-premium--item">
+                                            <img src="assets/images/check.png" />
+                                            <div>
+                                                <h4>FIRST FEATURE</h4>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.<br/>
+                                                -- FEATURE ONE<br/>
+                                                -- FEATURE TWO<br/>
+                                                -- FEATURE THREE
+                                            </div>
+                                        </div>
+                                        <div class="section-premium--item">
+                                            <img src="assets/images/check.png" />
+                                            <div>
+                                                <h4>SECOND FEATURE</h4>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                            </div>
+                                        </div>
+                                        <div class="section-premium--item">
+                                            <img src="assets/images/check.png" />
+                                            <div>
+                                                <h4>THIRD FEATURE</h4>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div><div class="slide">
+                            <div class="slidearea">
+                                <div class="section-premium--left">
+                                    <img src="media/livros.png" />
+                                </div>
+                                <div class="section-premium--right">
+                                        <div class="section-premium--item">
+                                            <img src="assets/images/check.png" />
+                                            <div>
+                                                <h4>FIRST FEATURE</h4>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.<br/>
+                                                -- FEATURE ONE<br/>
+                                                -- FEATURE TWO<br/>
+                                                -- FEATURE THREE
+                                            </div>
+                                        </div>
+                                        <div class="section-premium--item">
+                                            <img src="assets/images/check.png" />
+                                            <div>
+                                                <h4>SECOND FEATURE</h4>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                            </div>
+                                        </div>
+                                        <div class="section-premium--item">
+                                            <img src="assets/images/check.png" />
+                                            <div>
+                                                <h4>THIRD FEATURE</h4>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="sliders-pointers">
+                    <div class="pointer active"></div>
+                    <div class="pointer"></div>
+                    <div class="pointer"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default dark facts">
+            <div class="section-title"><h3>Some Facts</h3></div>
+            <div class="section-desc"><h4>About our Work</h4></div>
+            <div class="section-body">
+                <div class="section-facts">
+                    <div class="section-facts--area">
+                        <div class="facts-number">1000</div>
+                        <div class="facts-line"></div>
+                        <div class="facts-title">Design Projects <br> Released</div>
+                        <div class="facts-desc"><p>Donec tincidunt cursus</p></div>
+                    </div>
+
+                    <div class="section-facts--area">
+                        <div class="facts-number">900</div>
+                        <div class="facts-line"></div>
+                        <div class="facts-title">Photos</div>
+                        <div class="facts-desc"><p>Morbi ex felis, tincidunt sed hendrerit</p></div>
+                    </div>
+
+                    <div class="section-facts--area">
+                        <div class="facts-number">500</div>
+                        <div class="facts-line"></div>
+                        <div class="facts-title">Marketing Ideas</div>
+                        <div class="facts-desc"><p>Donec tincidunt cursus</p></div>
+                    </div>
+
+                    <div class="section-facts--area">
+                        <div class="facts-number">100</div>
+                        <div class="facts-line"></div>
+                        <div class="facts-title">Exhibitions</div>
+                        <div class="facts-desc"><p>Morbi ex felis, tincidunt sed</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-share">
+            <div class="section-share--legend">
+                <img src="assets/images/share.png" />
+                Tell About Us:
+            </div>
+            <div class="section-share--item">
+                <div class="section-share--icon twitter">
+                    <img src="assets/images/twitter.png" />
+                </div>
+                152
+            </div>
+            <div class="section-share--item">
+                <div class="section-share--icon linkedin">
+                    <img src="assets/images/linkedin.png" />
+                </div>
+                152
+            </div>
+            <div class="section-share--item">
+                <div class="section-share--icon facebook">
+                    <img src="assets/images/facebook.png" />
+                </div>
+                152
+            </div>
+            <div class="section-share--item">
+                <div class="section-share--icon googleplus">
+                    <img src="assets/images/googleplus.png" />
+                </div>
+                152
+            </div>
+            <div class="section-share--item">
+                <div class="section-share--icon pinterest">
+                    <img src="assets/images/pinterest.png" />
+                </div>
+                152
+            </div>
+        </section>
+    
+
+        <section class="default light contact">
+            <div class="section-title"><h3>Contact US</h3></div>
+            <div class="section-desc"><h4>Our Agency Located In Melbourne, Australia</h4></div>
+            <div class="section-body">
+                <div class="section-contactus">
+                    <form method="POST">
+
+                        <div class="section-contact--split">
+
+                            <input type="text" name="name" placeholder="NAME" />
+
+                            <input type="text" name="name" placeholder="EMAIL" />
+
+                        </div>
+
+                        <input type="text" name="name" placeholder="SUBJECT" />
+
+                        <textarea name="message" placeholder="MESSAGE"></textarea>
+
+                        <input type="submit" value="Send Message" class="button"/>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-map">
+            <div class="section-map--area">
+                <div class="section-map--info">
+                        <div class="section-map--info-item">
+                            <div class="section-map--info-item-img">
+                                <img src="assets/images/carta.png" />
+                            </div>
+                            Endereço completão que irá ter algum tamanho
+                        </div>
+                        <div class="section-map--info-item">
+                            <div class="section-map--info-item-img">
+                                <img src="assets/images/localizacao.png" />
+                            </div>
+                            Endereço completão que irá ter algum tamanho
+                        </div>
+                        <div class="section-map--info-item">
+                            <div class="section-map--info-item-img">
+                                <img src="assets/images/telefone.png" />
+                            </div>
+                            Endereço completão que irá ter algum tamanho
+                        </div>
+                        <div class="section-map--info-item">
+                            <div class="section-map--info-item-img">
+                                <img src="assets/images/arroba.png" />
+                            </div>
+                            Endereço completão que irá ter algum tamanho
+                        </div>
+                        <div class="section-map--info-item">
+                            <div class="section-map--info-item-img">
+                                <img src="assets/images/web.png" />
+                            </div>
+                            Endereço completão que irá ter algum tamanho
+                        </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
+        <div class="footer--area">
+            <div class="footer--item area1">
+                <div class="footer-social">
+                    <a href="">
+                        <img src="assets/images/twitter.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/linkedin.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/facebook.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/googleplus.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="assets/images/pinterest.png" alt="">
+                    </a>
+                </div>
+            </div>
 
+            <div class="footer--item area2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sunt non blanditiis obcaecati, iste magnam incidunt, quae accusamus ipsam at, quam ex hic. Tempore nemo rerum architecto perspiciatis nesciunt quod!</p>
+            </div>
+            
+
+            <div class="footer--item area3">
+                <form method="POST">
+                    <input type="email" name="email" placeholder="EMAIL TO SUBSCRIBE">
+                    <button class="button">Subscribe</button>
+                </form>
+            </div>
+        </div>
     </footer>
+
     <script src="assets/js/javascript.js"></script>
 </body>
 </html>
