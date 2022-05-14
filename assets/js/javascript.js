@@ -111,7 +111,7 @@ function show6(){
 
  */
 ////////////////////////////////////////////////////////////
-/* 
+
 // Aqui crio duas variaveis que retornarão um array com os elementos do html com a class ('.slide') e ('.pointer')
 var sliders = document.querySelectorAll('.slide');
 var pointers = document.querySelectorAll('.pointer')
@@ -162,7 +162,7 @@ function show9(){
     pointers[8].classList.add('active')
     clearInterval(atualizar)
     atualizar = setInterval(bannerLoop3, 3000)
-}  */
+}  
 
 ///////////////////////////////////////////////////////////
 
